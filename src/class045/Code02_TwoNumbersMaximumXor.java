@@ -10,7 +10,6 @@ import java.util.HashSet;
 public class Code02_TwoNumbersMaximumXor {
 
 	// 前缀树的做法
-	// 好想
 	public static int findMaximumXOR1(int[] nums) {
 		build(nums);
 		int ans = 0;
